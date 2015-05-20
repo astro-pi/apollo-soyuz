@@ -1,6 +1,6 @@
 # Apollo Soyuz Demo
 
-Demonstration of the IMU sensor of the Astro Pi sense HAT by [Serge Schneider](https://github.com/XECDesign).
+Demonstration of the IMU sensor on the Astro Pi sense HAT by [Serge Schneider](https://github.com/XECDesign).
 
 Assumes the Astro Pi software [installation](https://github.com/astro-pi/astro-pi-hat/blob/master/README.rst) has been done.
 
