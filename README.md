@@ -20,6 +20,7 @@ cd apollo-soyuz
 sudo ./soyuz.py
 ```
 
+Pi 1 users will have to wait 3 to 4 minutes for this to load. For Pi 2 users it's about 30 seconds.
 Pick up the Astro Pi and start moving it around when you see the spacecraft appear on screen.
 
 ## Keys
