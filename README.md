@@ -4,6 +4,16 @@ Demonstration of the IMU sensor of the Astro Pi sense HAT
 
 Assumes the Astro Pi software [installation](https://github.com/astro-pi/astro-pi-hat/blob/master/README.rst) has been done.
 
+## Requirements
+
+- Python [pi3d](https://pypi.python.org/pypi/pi3d) module.
+
+```bash
+sudo pip install pi3d
+```
+
+## Usage
+
 ```bash
 git clone https://github.com/astro-pi/apollo-soyuz.git
 cd apollo-soyuz
