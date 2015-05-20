@@ -20,6 +20,8 @@ cd apollo-soyuz
 sudo ./soyuz.py
 ```
 
+When you see the spacecraft pick the Astro Pi up in your hand and start moving it around.
+
 ## Keys
 
 - `a` toggle accelerometer on/off
