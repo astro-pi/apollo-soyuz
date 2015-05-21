@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from astro_pi import AstroPi
 import math
 import pi3d
