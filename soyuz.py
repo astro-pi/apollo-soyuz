@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-from astro_pi import AstroPi
+from sense_hat import SenseHat
 import math
 import pi3d
 
-ap = AstroPi()
+sense = SenseHat()
 
 display = pi3d.Display.create()
 cam = pi3d.Camera.instance()
@@ -21,12 +21,12 @@ cam.point_at((0, -1, 40))
 keyb = pi3d.Keyboard()
 
 compass = gyro = accel = True
-ap.set_imu_config(compass, gyro, accel)
+sense.set_imu_config(compass, gyro, accel)
 
 yaw_offset = 72
 
 while display.loop_running():
-    o = ap.get_orientation_radians()
+    o = sense.get_orientation_radians()
     if o is None:
         pass
 
@@ -61,13 +61,13 @@ while display.loop_running():
         break
     elif keypress == ord('m'):
         compass = not compass
-        ap.set_imu_config(compass, gyro, accel)
+        sense.set_imu_config(compass, gyro, accel)
     elif keypress == ord('g'):
         gyro = not gyro
-        ap.set_imu_config(compass, gyro, accel)
+        sense.set_imu_config(compass, gyro, accel)
     elif keypress == ord('a'):
         accel = not accel
-        ap.set_imu_config(compass, gyro, accel)
+        sense.set_imu_config(compass, gyro, accel)
     elif keypress == ord('='):
         yaw_offset += 1
     elif keypress == ord('-'):
