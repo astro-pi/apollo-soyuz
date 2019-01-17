@@ -12,7 +12,7 @@ Python 3:
 
 ```bash
 sudo apt-get install python3-pip
-sudo pip-3.2 install pi3d
+sudo pip3 install pi3d
 ```
 
 Python 2:
@@ -30,7 +30,7 @@ cd apollo-soyuz
 sudo python3 soyuz.py
 ```
 
-Pi 1 users will have to wait 3 to 4 minutes for this to load. For Pi 2 users it's about 30 seconds.
+Pi 1 users will have to wait 3 to 4 minutes for this to load. For Pi 2/3 users it's about 30 seconds.
 
 Pick up the Astro Pi and start moving it around when you see the spacecraft appear on screen.
 
